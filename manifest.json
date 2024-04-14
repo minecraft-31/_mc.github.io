@@ -1,0 +1,31 @@
+{
+    "name": "我的世界中文论坛",
+    "short_name": "MCBBS",
+    "version": "1.1",
+    "manifest_version": 2,
+    "description": "MCBBS手机版PWA应用",
+    "start_url": "/forum.php?mod=guide&view=hot&mobile=2&utm_source=pwa",
+    "serviceworker": {
+        "src": "./sw-mobile.js?version=1"
+    },
+    "icons": [{
+        "src": "./static/image/common/mobile-logo-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    },
+    {
+        "src": "./static/image/common/mobile-logo-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    },
+    {
+        "src": "./static/image/common/mobile-logo-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "display": "fullscreen",
+    "standalone": "fullscreen",
+    "lang": "zh-Hans",
+    "background_color" : "#dfcca8"
+
+}
